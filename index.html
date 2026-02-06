@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love Times – Special Edition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hearts"></div>
+
+<div class="card">
+
+  <!-- INTRO ONLY -->
+  <section class="intro" id="introSection">
+    <h1>I’ve been meaning to ask you something…</h1>
+    <p>But first, I made something special just for you.</p>
+
+    <button class="btn primary" onclick="openPDF()">
+      Read the Special Edition 📰
+    </button>
+  </section>
+
+  <!-- QUESTION (NOT visible initially) -->
+  <section class="question hidden" id="questionSection">
+    <h2> Soo Leah .... </h2>
+    <h2>Will you be my Valentine? 💖</h2>
+
+    <div class="buttons">
+  <button class="btn yes" onclick="sayYes()">Yes 💕</button>
+  <button class="btn yes alt" onclick="sayYes()">Yes 💖</button>
+</div>
+
+    <p id="response"></p>
+  </section>
+
+</div>
+
+<div id="confetti"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
