@@ -89,6 +89,9 @@ hr {
   background: #ff5c8a;
   color: white;
 }
+.alt {
+  background: #ff8fab;
+}
 
 .maybe {
   background: #f6c1cc;
@@ -123,3 +126,4 @@ hr {
     transform: translateY(110vh) rotate(360deg);
   }
 }
+
